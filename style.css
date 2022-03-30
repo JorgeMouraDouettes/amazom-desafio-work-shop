@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+
+}
+.logo-cabecalho{
+    height: 50px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 25px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 200px;
+    padding-bottom: 207px;
+}.conteudo-inscrever{
+    background-color: grey;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.escrita{
+    display: flex;
+    row-gap: 30px;
+
+}
+.rodape{
+   
+    display: flex;
+    justify-content: center;
+    border-top: 2px;
+    background-color: grey;
+    flex-shrink: 0;
+}
+.facebook{
+    height: 47px;
+    width: 47px;
+}
+
+.instagram{
+    height: 47px;
+    width: 47px;
+
+}
